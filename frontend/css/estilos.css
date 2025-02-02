@@ -1,13 +1,15 @@
+  /*INC465 Cambio de fuente*/
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica','Arial', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-image:url(../img/fondo-usuarios.jpg);
   }
 
+  /*INC465 Cambio de color*/
   header {
-    background: #052c66;
+    background: #3f94b6;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -116,9 +118,9 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
-  
+    /*INC465 Cambio de color*/
   footer {
-    background: #052c66;
+    background: #3f94b6;
     color: #fff;
     text-align: center;
     padding: 10px 0;
