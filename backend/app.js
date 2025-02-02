@@ -10,6 +10,14 @@ const PORT = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 
+
+//EvoUsers - Registro de peticiones HTTP
+app.use((req, res, next) => {
+  console.log(`Petición: ${req.method} ${req.url}`);
+  next();
+ });
+ 
+
 // Rutas CRUD
 app.get('/users', (req, res) => {
   const db = readDB();
