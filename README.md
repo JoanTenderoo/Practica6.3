@@ -5,5 +5,8 @@ Este proyecto es una API REST construida con Node.js, diseñada para administrar
 * Gestión de usuarios: Permite crear, obtener, actualizar y borrar registros de usuarios.
 * Autenticación: Soporte para autenticación de usuarios (si está habilitada).
 * Almacenamiento de datos: Integra una base de datos (MongoDB, MySQL u otra) para gestionar la información de manera eficiente.
-Manejo de errores: Respuestas estructuradas para facilitar la identificación y gestión de errores.
-Validación de datos: Comprobación de la información ingresada para asegurar su consistencia y seguridad.
+* Manejo de errores: Respuestas estructuradas para facilitar la identificación y gestión de errores.
+* Validación de datos: Comprobación de la información ingresada para asegurar su consistencia y seguridad.
+
+# Añadimos funcionalidad de registro de peticiones HTTP 
+Esta funcionalidad permite nuevos registros de peticiones HTTP
